@@ -1,0 +1,16 @@
+# 忽略Python虚拟环境
+deeplearn_env/
+
+# 忽略Python编译文件和缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略IDE和编辑器配置文件
+.vscode/
+.idea/
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
