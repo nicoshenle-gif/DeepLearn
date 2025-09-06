@@ -10,7 +10,7 @@ def generate_data(n=100, noise_std=1.0):
     """生成线性回归数据 y = 2x + 3 + noise"""
     np.random.seed()
     X = np.random.rand(n, 1) * 10  #生成n行1列的随机数数组，每个数的范围是0到10，是x的值
-    y = 2 * X + 3 + np.random.randn(n, 1) * noise_std
+    y = 2 * X + 3 + np.random.randn(n, 1) * noise_std #y的值是2x+3+噪声，噪声的标准差是noise_std
     return X, y
 
 # 批量梯度下降
