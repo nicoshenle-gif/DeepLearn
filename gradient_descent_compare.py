@@ -16,7 +16,7 @@ def generate_data(n=100, noise_std=1.0):
 # 批量梯度下降
 def batch_gradient_descent(X, y, lr=0.01, epochs=100):
     """批量梯度下降算法"""
-    m = len(y)
+    m = len(y)   #数据量大小
     w = np.random.randn(1)
     b = np.random.randn(1)
     
